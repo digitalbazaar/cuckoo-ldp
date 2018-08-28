@@ -1,0 +1,22 @@
+{
+  "name": "cuckoo-ldp",
+  "version": "0.1.0-1",
+  "description": "JavaScript Cuckoo Cycle Linked Data Proofs",
+  "license": "BSD-3-Clause",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/cuckoo-ldp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/cuckoo-ldp/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/cuckoo-ldp#readme",
+  "dependencies": {
+    "equihash": "github:digitalbazaar/cuckoo-cycle#implementation",
+    "jsonld-signatures": "^2.2.1"
+  },
+  "peerDependencies": {
+    "jsonld": "^1.0.1"
+  }
+}
