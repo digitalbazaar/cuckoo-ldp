@@ -17,7 +17,7 @@
     "jsonld-signatures": "^2.2.1"
   },
   "scripts": {
-    "prepublish": "npm run build",
+    "xprepublish": "npm run build",
     "build": "npm run build-webpack",
     "build-webpack": "webpack",
     "test": "npm run test-node && npm run test-karma",

@@ -1,6 +1,11 @@
 {
   "env": {
-    "mocha": true,
-    "phantomjs": true
+    "mocha": true
+  },
+  "globals": {
+    "assertNoError": true,
+    "should": true,
+    "expect": true,
+    "window": true
   }
 }

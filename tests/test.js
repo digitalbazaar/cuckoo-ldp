@@ -1,10 +1,5 @@
 /**
- * Node.js test runner for cuckoo-ldp.
- *
- * @author Dave Longley
- * @author David I. Lehn
- *
- * Copyright (c) 2011-2018 Digital Bazaar, Inc. All rights reserved.
+ * Copyright (c) 2018 Digital Bazaar, Inc. All rights reserved.
  */
 const assert = require('chai').assert;
 const common = require('./test-common');
